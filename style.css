@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+nav{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vmax 2vmax;
+    align-items: center;
+    font-family: "Gilroy";
+}
+span{
+    color: #AD3E51;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 3vmax;
+}
+.page{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    padding-top: 4vmax;
+}
+nav h2{
+    font-weight: 500;
+    letter-spacing: 0.2vmax;
+    line-height: 1.5vmax;
+}
+.left h1{
+    padding-top: 3vmax;
+    font-size: 4.5vmax;
+    letter-spacing: 0.3vmax;
+    font-family: "Gilroy";
+    line-height: 7vmax;
+    word-spacing: -0.4vmax;
+    width: 94%;
+    padding-left: 4vmax;
+
+    text-align: left;
+    font-family: "Kanit";
+
+}
+
+.left button{
+    padding: 1vmax 3vmax;
+    font-family: "Gilroy";
+    font-weight: 500;
+    margin-top: 3vmax;
+    margin-left: 15vmax;
+    background-color: #FFFFFF;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+
+}
+.right{
+    width: 50%;
+    height: 100%;
+}
+.right img{
+    width: 72%;
+    height: 80%;
+    object-fit: cover;
+    margin-left: 17%;
+    margin-top: 8%;
+}
